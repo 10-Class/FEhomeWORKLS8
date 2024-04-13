@@ -56,7 +56,7 @@ for (let i = 0; i < products.length; i++) {
 let oneth = [];
 for (let i = 0; i < products.length; i++) {
     if (products[i].price < 1000) {
-        oneth += products[i];
+        oneth.push(products[i]);
     }
 }
 
